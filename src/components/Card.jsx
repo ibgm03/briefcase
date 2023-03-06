@@ -3,18 +3,18 @@ import React from "react";
 export const Card = () => {
   return (
     <div>
-      <div className="grid grid-cols-12 bg-portada bg-cover pt-56 pb-56">
+      <div className="grid grid-cols-12 bg-gray-400 bg-gradient-to-b from-slate-800 to-slate-400 lg:bg-portada bg-cover pt-56 pb-56">
         <div className="col-span-6 grid place-items-center">
           <div className="">
-            <img
+            {/* <img
               className="h-48 w-48 rounded-full mb-4 backdrop-blur-sm bg-white/30"
               src="/images/benjamin.jpg"
               alt=""
-            />
+            /> */}
           </div>
         </div>
 
-        <div className="col-span-6 text-white text-center">
+        <div className="col-span-12 lg:col-span-6 text-white text-center">
           <div className="font-bold text-4xl pt-[3rem] ">Hola!</div>
           <div className="font-extrabold text-blue-700 text-5xl ">
             Soy Benjamín Gonzalez

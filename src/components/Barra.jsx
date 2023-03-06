@@ -11,8 +11,8 @@ export const Barra = () => {
               class="h-6 mr-3 sm:h-9"
               alt="Flowbite Logo"
             /> */}
-            <span class="self-center text-xl font-semibold whitespace-nowraptext-white text-white">
-              Benjamin Glez
+            <span class="self-center text-2xl font-semibold whitespace-nowraptext-white text-white">
+              Benjamin<strong>Glez</strong>
             </span>
           </a>
           <button
@@ -45,7 +45,7 @@ export const Barra = () => {
                   class="block py-2 pl-3 pr-4  bg-blue-700 rounded md:bg-transparent md:text-blue-700 md:p-0 text-white"
                   aria-current="page"
                 >
-                  Home
+                  Inicio
                 </a>
               </li>
               <li>
@@ -53,7 +53,7 @@ export const Barra = () => {
                   href="#"
                   class="block py-2 pl-3 pr-4  rounded  md:border-0  md:p-0 text-gray-400 md:hover:text-white hover:bg-gray-700  hover:text-white md:hover:bg-transparent"
                 >
-                  About
+                  Sobre Mi
                 </a>
               </li>
               <li>
@@ -61,7 +61,7 @@ export const Barra = () => {
                   href="#"
                   class="block py-2 pl-3 pr-4  rounded  md:border-0  md:p-0 text-gray-400 md:hover:text-white hover:bg-gray-700  hover:text-white md:hover:bg-transparent"
                 >
-                  Services
+                  Proyectos
                 </a>
               </li>
               <li>
@@ -69,15 +69,7 @@ export const Barra = () => {
                   href="#"
                   class="block py-2 pl-3 pr-4  rounded  md:border-0  md:p-0 text-gray-400 md:hover:text-white hover:bg-gray-700  hover:text-white md:hover:bg-transparent"
                 >
-                  Portfolio
-                </a>
-              </li>
-              <li>
-                <a
-                  href="#"
-                  class="block py-2 pl-3 pr-4  rounded  md:border-0  md:p-0 text-gray-400 md:hover:text-white hover:bg-gray-700  hover:text-white md:hover:bg-transparent"
-                >
-                  Contact
+                  Contacto
                 </a>
               </li>
             </ul>

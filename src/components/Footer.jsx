@@ -9,8 +9,8 @@ import {
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 export const Footer = () => {
   return (
-    <div className="container mx-auto">
-      <div className="grid grid-cols-3 text-center pt-5 pb-5 text-blue-700">
+    <div className="">
+      <div className="grid grid-cols-3 text-center pt-5 pb-5 bg-gray-900 text-white">
         <div className="text-xl font-semibold">Benjamin Glez</div>
         <div>
           <ul>
@@ -40,6 +40,7 @@ export const Footer = () => {
             </li>
           </ul>
         </div>
+        <div className="col-span-4 pt-5">Copyright © 2023 Benjamin Glez - Todos los derechos reservados. </div>
       </div>
     </div>
   );
