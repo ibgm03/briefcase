@@ -10,12 +10,9 @@ export const About = () => {
             ¿Quien Soy?
           </div>
           <div className="text-lg text-gray-500 mb-8">
-            Lorem Ipsum es simplemente el texto de relleno de las imprentas y
-            archivos de texto. Lorem Ipsum ha sido el texto de relleno estándar
-            de las industrias desde el año 1500, cuando un impresor (N. del T.
-            persona que se dedica a la imprenta) desconocido usó una galería de
-            textos y los mezcló de tal manera que logró hacer un libro de textos
-            especimen.
+          Como desarrollador, tengo una fuerte pasión por la creación de aplicaciones web utilizando el stack MERN (MongoDB, Express, React y Node) junto con MySQL. Me considero un programador muy dedicado y apasionado por mi trabajo, y disfruto resolviendo problemas y encontrando soluciones creativas a través del uso de diferentes tecnologías. Mi experiencia con el stack MERN y MySQL me permite crear aplicaciones escalables y eficientes, asegurando una experiencia de usuario excepcional y un rendimiento óptimo. <br />
+          Estoy comprometido a seguir mejorando mis habilidades y conocimientos para mantenerme actualizado en la industria y continuar entregando soluciones de alta calidad para mis clientes.
+
           </div>
        
         </div>
@@ -27,7 +24,7 @@ export const About = () => {
      />
         <a
             className="bg-blue-700 py-4 px-8 text-sm text-white hover:bg-blue-blueBackground"
-            href="!#"
+            href="https://drive.google.com/file/d/1QPiJv2N54eX3wYe9NaNy4cNEJok0ptSB/view?usp=sharing"
           >
             Curriculum
           </a>
