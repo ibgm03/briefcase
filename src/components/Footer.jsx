@@ -14,10 +14,12 @@ export const Footer = () => {
         <div className="text-xl font-semibold">Benjamin Glez</div>
         <div>
           <ul>
-            <li>Inicio</li>
-            <li>About</li>
-            <li>Portafolio</li>
-            <li>Contacto</li>
+            <a href="#inicio"> <li>Inicio</li></a>
+            <a href="#about">  <li>Sobre Mi</li></a>
+            <a href="#skills"><li>Skills</li></a>
+            <a href="#proyectos"> <li>Proyectos</li></a>
+            <a href="#contacto"><li>Contacto</li></a>
+
           </ul>
         </div>
 
@@ -29,12 +31,12 @@ export const Footer = () => {
               </a>
             </li>
             <li className="w-4">
-              <a className="hover:text-blue-blueTittle" href="">
+              <a className="hover:text-blue-blueTittle" href="https://github.com/ibgm03">
                 <FontAwesomeIcon icon={faGithub}></FontAwesomeIcon>
               </a>
             </li>
             <li className="w-4">
-              <a className="hover:text-blue-blueTittle" href="">
+              <a className="hover:text-blue-blueTittle" href="https://www.linkedin.com/in/benjamin-gonzalez-medina-b8b106247">
                 <FontAwesomeIcon icon={faLinkedin}></FontAwesomeIcon>
               </a>
             </li>

@@ -7,7 +7,7 @@ export const Experience = () => {
         PROYECTOS
       </h1>
       <div className="container mx-auto pb-24">
-        <div className="grid relative grid-cols-2 lg:grid-cols-4 gap-4">
+        <div className="grid relative grid-cols-1 lg:grid-cols-4 gap-4">
           <div className="relative grid">
             <div class="flex justify-center ">
               <div class=" shadow-lg bg-white">
@@ -16,7 +16,7 @@ export const Experience = () => {
                     className="h-48"
                     src="/images/inadvisors.jpg"
                     alt=""
-                  
+
                   />
                 </a>
                 <div class="p-6">
@@ -45,7 +45,7 @@ export const Experience = () => {
                     className="h-48"
                     src="/images/phawa.jpg"
                     alt=""
-                  
+
                   />
                 </a>
                 <div class="p-6">
@@ -53,12 +53,13 @@ export const Experience = () => {
                   <p class="text-gray-700 text-base mb-4">
                     Colaborador en el sitio de Phawa trabajando en Softwareland
                   </p>
-                  <button
+                  <a
+                    href="https://www.phawa.com.mx/"
                     type="button"
                     class=" inline-block px-6 py-2.5 bg-blue-600 text-white font-medium text-xs leading-tight uppercase rounded shadow-md hover:bg-blue-700 hover:shadow-lg focus:bg-blue-700 focus:shadow-lg focus:outline-none focus:ring-0 active:bg-blue-800 active:shadow-lg transition duration-150 ease-in-out"
                   >
                     Visitar
-                  </button>
+                  </a>
                 </div>
               </div>
             </div>
@@ -77,7 +78,7 @@ export const Experience = () => {
                     Generador de Credenciales para jugadores de Futbol
                   </p>
                   <a
-                  href="https://youtu.be/5o9f2Uo7fWM"
+                    href="https://youtu.be/5o9f2Uo7fWM"
                     type="button"
                     class=" inline-block px-6 py-2.5 bg-blue-600 text-white font-medium text-xs leading-tight uppercase rounded shadow-md hover:bg-blue-700 hover:shadow-lg focus:bg-blue-700 focus:shadow-lg focus:outline-none focus:ring-0 active:bg-blue-800 active:shadow-lg transition duration-150 ease-in-out"
                   >
