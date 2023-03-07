@@ -24,9 +24,8 @@ export default function Navbar({ fixed }) {
                             type="button"
                             onClick={() => setNavbarOpen(!navbarOpen)}
                         >
-                            <a className="hover:text-blue-blueTittle" href="">
-                                <FontAwesomeIcon icon={faBars}></FontAwesomeIcon>
-                            </a>
+                             <FontAwesomeIcon icon={faBars}></FontAwesomeIcon>
+                            
                         </button>
                     </div>
                     <div
