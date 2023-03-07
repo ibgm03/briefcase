@@ -2,7 +2,7 @@ import React from 'react'
 
 export const Contacto = () => {
     return (
-        <div className='container mx-auto'>
+        <div className='container mx-auto' id='contacto'>
             <div className='grid grid-cols-12'>
                 <div className="col-span-12 py-5">
                     <div className='text text-4xl font-semibold text-gray-600 text-center'>CONTACTO</div>

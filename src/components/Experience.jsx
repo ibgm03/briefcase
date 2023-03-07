@@ -2,7 +2,7 @@ import React from "react";
 
 export const Experience = () => {
   return (
-    <div className="bg-gray-900">
+    <div className="bg-gray-900" id="proyectos">
       <h1 className="text-center font-bold text-4xl text-white  pt-[3rem] pb-[3rem]">
         PROYECTOS
       </h1>

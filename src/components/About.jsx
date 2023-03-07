@@ -2,7 +2,7 @@ import React from "react";
 
 export const About = () => {
   return (
-    <div className="container mx-auto">
+    <div className="container mx-auto" id="about">
       <div className="grid grid-cols-12 pt-16 pb-16">
         <div className="col-span-12 lg:col-span-6">
           <div className="text-4xl text-center lg:text-left text-gray-600 mb-4 font-semibold">SOBRE MI</div>
