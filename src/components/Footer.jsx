@@ -9,7 +9,7 @@ export const Footer = () => {
   return (
     <div className="">
       <div className="grid grid-cols-3 text-center pt-5 pb-5 bg-gray-900 text-white">
-        <div className="text-xl font-semibold">Benjamin Glez</div>
+        <div className="text-xl font-semibold"> Benjamin<strong>Glez</strong></div>
         <div>
           <ul>
             <a href="#inicio"> <li>Inicio</li></a>
