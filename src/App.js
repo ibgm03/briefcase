@@ -7,6 +7,7 @@ import { Footer } from "./components/Footer";
 
 import Navbar from "./components/Navbar";
 import { Skills } from "./components/Skills";
+import { Whatsapp } from "./components/Whatsapp";
 
 function App() {
   return (
@@ -17,6 +18,7 @@ function App() {
       <Skills/>
       <Experience />
       <Contacto/>
+      <Whatsapp/>
       <Footer />
     </>
   );

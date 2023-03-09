@@ -15,7 +15,7 @@ export default function Navbar({ fixed }) {
                             className="text-sm font-bold leading-relaxed inline-block mr-4 py-2 whitespace-nowrap uppercase text-white"
                             href="#pablo"
                         >
-                            <span class="self-center text-2xl font-semibold whitespace-nowraptext-white text-white">
+                            <span className="self-center text-2xl font-semibold whitespace-nowraptext-white text-white">
                                 Benjamin<strong>Glez</strong>
                             </span>
                         </a>
