@@ -12,13 +12,13 @@ import { Whatsapp } from "./components/Whatsapp";
 function App() {
   return (
     <>
-    <Navbar/>
+      <Navbar />
       <Card />
       <About />
-      <Skills/>
+      <Skills />
       <Experience />
-      <Contacto/>
-      <Whatsapp/>
+      <Contacto />
+      <Whatsapp />
       <Footer />
     </>
   );

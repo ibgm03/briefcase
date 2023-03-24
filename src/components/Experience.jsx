@@ -12,12 +12,7 @@ export const Experience = () => {
             <div class="flex justify-center ">
               <div class=" shadow-lg bg-white">
                 <a href="https://www.inadvisors.com.mx/home/">
-                  <img
-                    className="h-48"
-                    src="/images/inadvisors.jpg"
-                    alt=""
-
-                  />
+                  <img className="h-48" src="/images/inadvisors.jpg" alt="" />
                 </a>
                 <div class="p-6">
                   <h5 class="text-gray-900 text-xl font-medium mb-2">
@@ -41,12 +36,7 @@ export const Experience = () => {
             <div class="flex justify-center ">
               <div class=" shadow-lg bg-white">
                 <a href="#!">
-                  <img
-                    className="h-48"
-                    src="/images/phawa.jpg"
-                    alt=""
-
-                  />
+                  <img className="h-48" src="/images/phawa.jpg" alt="" />
                 </a>
                 <div class="p-6">
                   <h5 class="text-gray-900 text-xl font-medium mb-2">Phawa</h5>
@@ -68,7 +58,11 @@ export const Experience = () => {
             <div class="flex justify-center ">
               <div class=" shadow-lg bg-white">
                 <a href="https://youtu.be/5o9f2Uo7fWM">
-                  <img className="h-48 w-full" src="/images/pirata.jpg" alt="" />
+                  <img
+                    className="h-48 w-full"
+                    src="/images/pirata.jpg"
+                    alt=""
+                  />
                 </a>
                 <div class="p-6">
                   <h5 class="text-gray-900 text-xl font-medium mb-2">
@@ -91,23 +85,28 @@ export const Experience = () => {
           <div className="relative grid">
             <div class="flex justify-center ">
               <div class=" shadow-lg bg-white">
-                <a href="#!">
-                  <img className="" src="h" alt="" />
+                <a href="https://pokeapibenjamin.vercel.app/">
+                  <img
+                    className="h-48 w-full"
+                    src="/images/pokeapp.png"
+                    alt=""
+                  />
                 </a>
                 <div class="p-6">
                   <h5 class="text-gray-900 text-xl font-medium mb-2">
-                    Card title
+                    Pokedéx con React
                   </h5>
                   <p class="text-gray-700 text-base mb-4">
-                    Some quick example text to build on the card title and make
-                    up the bulk of the card's content.
+                    Pokedéx obteniendo los datos desde la api pokeapi,
+                    utilizando react y tailwind css
                   </p>
-                  <button
+                  <a
+                    href="https://pokeapibenjamin.vercel.app/"
                     type="button"
                     class=" inline-block px-6 py-2.5 bg-blue-600 text-white font-medium text-xs leading-tight uppercase rounded shadow-md hover:bg-blue-700 hover:shadow-lg focus:bg-blue-700 focus:shadow-lg focus:outline-none focus:ring-0 active:bg-blue-800 active:shadow-lg transition duration-150 ease-in-out"
                   >
-                    Button
-                  </button>
+                    Visitar
+                  </a>
                 </div>
               </div>
             </div>
